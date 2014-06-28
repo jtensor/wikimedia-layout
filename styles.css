@@ -9,18 +9,14 @@ body{
 p {
 	font-family: sans-serif;
 	font-size: 125%;
-	
 }
 .para1{
-	
 	margin-right: 7em;
-
 }
 .para2{
 	text-align: right;
 	margin-right: 8em;
 	font-size: 120%;
-
 }
 .table{
 	background-color: white;
@@ -28,7 +24,6 @@ p {
 	float: left;
 	width: 100%;
 	margin-top: 5em;
-	
 }
 .row{
 	float: left;
@@ -42,7 +37,6 @@ p {
 	font-size: .7em;
 	margin-top: 5em;
 	display: inline-block;
-/*	margin-left: 8em;*/
 	border-top: .1em solid #000;
 }
 img{
@@ -54,7 +48,6 @@ img{
 }
 a{
 	text-decoration: none;
-	/*font-size: 125%;*/
 }
 a:hover{
 	text-decoration: underline;
