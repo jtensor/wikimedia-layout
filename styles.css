@@ -1,7 +1,10 @@
+
+
 body{
 	width: 80%;
-	margin:auto;
-	margin-top: 50px;
+	margin: 5em 5em 5em 5em;
+	padding: 5em 5em 5em 7em;
+	box-sizing:box-border;
 }
 p {
 	font-family: sans-serif;
@@ -10,12 +13,12 @@ p {
 }
 .para1{
 	
-	margin-right: 100px;
+	margin-right: 7em;
 
 }
 .para2{
 	text-align: right;
-	margin-right: 150px;
+	margin-right: 8em;
 	font-size: 120%;
 
 }
@@ -24,7 +27,8 @@ p {
 	margin: auto;
 	float: left;
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 5em;
+	
 }
 .row{
 	float: left;
@@ -32,16 +36,41 @@ p {
 	width: 25%;
 }
 .footer{
+	clear: both;
+	width: 85%;
 	text-align: center;
-	font-size: 10px;
-	margin-top: 50px;
+	font-size: .7em;
+	margin-top: 5em;
 	display: inline-block;
-	margin-left: 175px;
+/*	margin-left: 8em;*/
+	border-top: .1em solid #000;
+}
+img{
+	text-align: center;
 }
 .foot{
-	width: 40%;
+	width: 90%;
 	margin: auto;
-
+}
+a{
+	text-decoration: none;
+	/*font-size: 125%;*/
+}
+a:hover{
+	text-decoration: underline;
+}
+.box1{
+	width: 50%;
+	color: #fff;
+	float: left;
+	text-align: right;
+	padding-right: 1em;
+}
+.box2{
+	width: 50%
+	float:right;
+	text-align: left;
+	padding-left: 1em;
 }
 
 
